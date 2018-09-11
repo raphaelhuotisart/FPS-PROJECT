@@ -10,6 +10,7 @@ public class Shooting : MonoBehaviour {
     {
         Ray shotRay = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
+
         if (Physics.Raycast(shotRay, out hit, 100f)){
             Debug.Log(hit.collider.gameObject.tag);
             if (hit.collider.gameObject.tag == "Floor")

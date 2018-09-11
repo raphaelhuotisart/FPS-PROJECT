@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 4898397377631324}
   - component: {fileID: 33019932302710452}
   - component: {fileID: 23977797632643486}
-  - component: {fileID: 136058177674757494}
   - component: {fileID: 143337766457424782}
   - component: {fileID: 114249627732556504}
   - component: {fileID: 114197321957275942}
@@ -84,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1132810783166518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.124}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4134598394884852}
@@ -147,7 +146,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1079417842574554}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -217,19 +216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2485120d3307c7a40957de5784dfc68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &136058177674757494
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1079417842574554}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!143 &143337766457424782
 CharacterController:
   m_ObjectHideFlags: 1
